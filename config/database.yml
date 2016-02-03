@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: ynBackendV2_production
-  username: ynBackendV2
-  password: <%= ENV['YNBACKENDV2_DATABASE_PASSWORD'] %>
+  username: thorrobin
+  password: <%= ENV['THORROBIN_DATABASE_PASSWORD'] %>
