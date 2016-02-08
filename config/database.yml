@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: ynBackendV2_production
-  username: thorrobin
+ # username: thorrobin
   password: <%= ENV['THORROBIN_DATABASE_PASSWORD'] %>
